@@ -146,9 +146,6 @@ window.addEventListener('scroll', scrollActive)
 const d = new Date();
 document.getElementById("date").innerHTML = d;
 
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
-
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
