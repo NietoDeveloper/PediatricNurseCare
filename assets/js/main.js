@@ -63,8 +63,6 @@ btns.forEach((btn, i) => {
 });
 
 
-/*=============== POPULAR SWIPER ===============*/
-
 let swiperPopular = new Swiper(".popular__container", {
     loop: true,
     spaceBetween: 24,
