@@ -832,19 +832,3 @@ padding-top: 9rem;
       padding: 1rem;
   }
 }
-
-.footer{
-  text-align: center;
-  background-color: white;
-  color: black;
-  padding: 40px;
-  height: 150px;
-  margin-top: -1px;
-}
-.footer a {
-  color: blue;
-  font-size: 20px;
-}
-.footer p {
-  font-size: 15px;
-}
