@@ -348,7 +348,6 @@ padding-top: 9rem;
 }
 
 .Aws--header{
-  /* padding:0.2rem; */
   margin-top:2rem;
   margin-bottom: 1rem;
   text-align:center;
@@ -362,9 +361,6 @@ padding-top: 9rem;
   line-height: 1.5rem;
   text-align:center;
   font-size: 0.8rem;
-  /* background-color: black;
-  color:white */
-  
 }
 
 .background__2--image{
