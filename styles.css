@@ -400,7 +400,6 @@ padding-top: 9rem;
   color: white;
   font-size: 2.5rem;
   text-align: center;
-  /* margin:auto; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 7px;
   border-radius: 13px 0px 13px 0px;
@@ -536,8 +535,6 @@ padding-top: 9rem;
   border-radius: 13px 0px 13px 0px;
   outline: 0.4rem inset purple;
   outline-offset: 0.4rem;
-  
-  
 }
 
 .background__5--image{
