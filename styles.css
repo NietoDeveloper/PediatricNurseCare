@@ -138,7 +138,6 @@ img {
   .nav__menu{
     position: fixed;
     background-color: hsl(0, 0%, 100%, .1);
-  
     top: 0;
     right: -100%;
     width: 100%;
