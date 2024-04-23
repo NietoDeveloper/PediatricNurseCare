@@ -39,8 +39,6 @@
   }
 }
 
-
-/*=============== BASE CSS ===============*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -138,7 +136,6 @@ img {
   .nav__menu{
     position: fixed;
     background-color: hsl(0, 0%, 100%, .1);
-  
     top: 0;
     right: -100%;
     width: 100%;
@@ -276,9 +273,7 @@ padding-top: 9rem;
   justify-content: center;
   align-items: center;
   height:35rem;
- 
 }
-
 
 .background__1 h1{
   padding: 1rem 1rem;
@@ -296,18 +291,13 @@ padding-top: 9rem;
   outline: 0.5rem inset purple;
   outline-offset: 0.6rem;
   text-transform: uppercase;
-  
 }
 
 .Full-Stack{
   
   background-color: white;
-  /* height:230px; */
-  /* width:100%; */
   opacity: 0.7;
   padding: 2.5rem;
- 
-  
 }
 
 .Full-Stack--header{
@@ -348,7 +338,6 @@ padding-top: 9rem;
 }
 
 .Aws--header{
-  /* padding:0.2rem; */
   margin-top:2rem;
   margin-bottom: 1rem;
   text-align:center;
@@ -362,9 +351,6 @@ padding-top: 9rem;
   line-height: 1.5rem;
   text-align:center;
   font-size: 0.8rem;
-  /* background-color: black;
-  color:white */
-  
 }
 
 .background__2--image{
@@ -400,7 +386,6 @@ padding-top: 9rem;
   color: white;
   font-size: 2.5rem;
   text-align: center;
-  /* margin:auto; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 7px;
   border-radius: 13px 0px 13px 0px;
@@ -493,12 +478,9 @@ padding-top: 9rem;
   color:white;
   padding: 2.5rem;
   opacity:0.8;
-  
-  
 }
 
 .Why--header{
-  /* padding:0.2rem; */
   margin-top:2rem;
   margin-bottom: 1rem;
   text-align:center;
@@ -512,9 +494,6 @@ padding-top: 9rem;
   line-height: 1.5rem;
   text-align:center;
   font-size: 0.8rem;
-  /* background-color: black;
-  color:white */
-  
 }
 
 .background__5{
@@ -537,14 +516,11 @@ padding-top: 9rem;
   color: white;
   font-size: 2.5rem;
   text-align: center;
-  /* margin:auto; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 7px;
   border-radius: 13px 0px 13px 0px;
   outline: 0.4rem inset purple;
   outline-offset: 0.4rem;
-  
-  
 }
 
 .background__5--image{
@@ -670,14 +646,12 @@ padding-top: 9rem;
  
 }
 
-
 .background__8 h1{
   padding: 1rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 20rem;
-  /* height:4.5rem; */
   background-color: rgb(29, 26, 26);
   color: white;
   font-size: 2.5rem;
@@ -688,7 +662,6 @@ padding-top: 9rem;
   outline: 0.5rem inset purple;
   outline-offset: 0.6rem;
   text-transform: uppercase;
-  
 }
 
 .background__9 {
@@ -700,8 +673,6 @@ padding-top: 9rem;
   width: 100%;
   height: 50rem;
   opacity: 0.8;
-  
-  
 }
 
 .background__9--text{
@@ -709,7 +680,6 @@ padding-top: 9rem;
   justify-content: center;
   align-items: center;
   height:35rem;
- 
 }
 
 
@@ -719,7 +689,6 @@ padding-top: 9rem;
   justify-content: center;
   align-items: center;
   width: 20rem;
-  /* height:4.5rem; */
   background-color: rgb(29, 26, 26);
   color: white;
   font-size: 2.5rem;
@@ -750,9 +719,7 @@ padding-top: 9rem;
   justify-content: center;
   align-items: center;
   height:35rem;
- 
 }
-
 
 .background__10 h1{
   padding: 1rem 1rem;
@@ -760,7 +727,6 @@ padding-top: 9rem;
   justify-content: center;
   align-items: center;
   width: 20rem;
-  /* height:4.5rem; */
   background-color: rgb(29, 26, 26);
   color: white;
   font-size: 2.5rem;
@@ -771,19 +737,10 @@ padding-top: 9rem;
   outline: 0.5rem inset purple;
   outline-offset: 0.6rem;
   text-transform: uppercase;
-  /* margin-top: 16px; */
-  
 }
 
 
 @media (max-width: 2560px) {
-  /* .background__1,
-  .background__2,
-  .background__3,
-  .background__4,
-  .background__5{
-    background-attachment: scroll;
-  } */
 
   .Full-Stack--header,
   .Full-Stack--text,
