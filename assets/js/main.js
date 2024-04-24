@@ -118,8 +118,6 @@ function scrollUp() {
 }
 window.addEventListener('scroll', scrollUp)
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive() {
@@ -148,7 +146,6 @@ const sr = ScrollReveal({
     distance: '60px',
     duration: 2500,
     delay: 400,
-    //reset: true
 })
 
 
