@@ -109,8 +109,6 @@ function activeFeatured() {
 
 linkFeatured.forEach(l => l.addEventListener('click', activeFeatured));
 
-
-/*=============== SHOW SCROLL UP ===============*/
 function scrollUp() {
     const scrollUp = document.getElementById('scroll-up');
     if (this.scrollY >= 350) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
