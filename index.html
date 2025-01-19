@@ -16,97 +16,56 @@
 <body>
     <header>
 
-                    <li><a href='#home'>Home</a></li>
-                    <li><a href="#attorney">Attorneys</a></li>
-                    <li><a href="#practice">Practice Areas</a></li>
-                    <li><a href="#about">About Us</a></li>
-        
-                    <section id='welcome-video'>
-        
-                        <div className="header-container">
-        
-                            <div className='icon'>
-                                <img src={icon} alt="Icon" />
-                            </div>
-                            <div className="nav">
-                                <ul>
-                                    <Nav />
-                                </ul>
-                            </div>
-                            <div className="contact">
-                                <button type='button'>Contact Now</button>
-                            </div>
-                            <div className="menu" aria-label='Menu' onClick={() => (setLines(!lines))}>
-                                {
-                                    lines ? (
-                                        <>
-                                            <div className='top'></div>
-                                            <div className='middle'></div>
-                                            <div className='bottom'></div>
-                                        </>
-                                    ) : (
-                                        <>
-                                            <div className='top-sec'></div>
-                                            <div></div>
-                                            <div></div>
-                                        </>
-                                    )
-                                }
-                            </div>
-        
-                        </div>
-        
-                        <section className='buttons-welcome'>
-        
-                            <h1>xoxoxoxoxox</h1>
-                            <h3>Professional Taxes Management</h3>
-        
-                            <div className='botones'>
-        
-                                <button className='btn-services'><h3>Services</h3></button>
-                                <button className='btn-services'><h3>Contact</h3></button>
-        
-                            </div>
-        
-                        </section>
-        
-                                    <div className="close" onClick={() => setLines(!lines)}>
-                                    </div>
-                      
-                                    <div className="open"></div>
-      
-                                    <div className='dashboard'>
-                                        <div className='dashboard-header'>
-                                            <img src={icon} alt="Logo" />
-                                        </div>
-                                        <div className='dashboard-container'>
-                                            <ul>
-                                                <Nav />
-                                            </ul>
-                                            <div className="contact-nav">
-                                                <button type='button'>Contact</button>
-                                            </div>
-                                        </div>
-                                    </div>
- 
-                                    <div className='dashboard-opened' id='dashboard-close'>
-                                        <div className='dashboard-header'>
-                                            <img src={icon} alt="Logo" />
-                                        </div>
-                                        <div className='dashboard-container'>
-                                            <ul>
-                                                <Nav />
-                                            </ul>
-                                            <div className="contact-nav">
-                                                <button type='button'>Contact Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-        
-        
-                        <video src={videoBg} autoPlay loop muted />
-        
-                    </section>
+        <nav>
+            <div class="nav-center">
+                <div class="nav-header">
+                    <div class="logo">
+                        <h2><span class="gold">Manuel</span> <span class="blue">Nie</span><span class="scarlet">to</span>
+                        </h2>
+                    </div>
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+    
+                <ul class="links">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="clients.html">Clients</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="skills.html">Skills</a>
+                    </li>
+                    <li>
+                        <a href="aboutmanuel.html">About</a>
+                    </li>
+                    <li></li>
+                    <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="cvresumen.html">CV Resumen</a>
+                    </li>
+                </ul>
+    
+                <ul class="social-icons">
+                    <li>
+                        <a target="_blank" href="https://github.com/NietoDeveloper">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/manuelfrancisconietoarias/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
     </header>
 
