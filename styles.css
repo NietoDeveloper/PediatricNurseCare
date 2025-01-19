@@ -120,7 +120,7 @@ main {
 }
 
 nav {
-  background: black;
+  background: transparent;
   box-shadow: var(--light-shadow);
 }
 .nav-header {
