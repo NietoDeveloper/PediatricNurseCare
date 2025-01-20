@@ -1,44 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap");
 @import url("assets/css/myCustom.css");
 
-:root {
-  --header-height: 3.5rem;
-  --first-color: hsl(219, 69%, 56%);
-  --first-color-alt: hsl(219, 69%, 52%);
-  --title-color: hsl(210, 92%, 5%);
-  --text-color: hsla(216, 89%, 35%, 0.879);
-  --text-color-light: hsl(220, 88%, 13%);
-  --white-color: #fff;
-  
-  --body-color: hsla(212, 79%, 58%, 0.843);
-  --container-color: hsl(219, 4%, 7%);
-
-  --body-font: 'Exo', sans-serif;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
-
-  --font-medium: 500;
-  --font-semi-bold: 600;
-
-  --z-tooltip: 10;
-  --z-fixed: 100;
-}
-
-@media screen and (min-width: 968px) {
-  :root {
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
-  }
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -52,7 +14,7 @@ html {
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  background-color: hsl(219, 80%, 64%);
   color: var(--text-color);
 }
 
@@ -121,7 +83,6 @@ main {
 
 nav {
   background: transparent;
-  box-shadow: blue;
 }
 .nav-header {
   display: flex;
@@ -133,14 +94,14 @@ nav {
 .nav-toggle {
   font-size: 25px;
   margin-right: 15px;
-  color: blue;
-  background: black;
+  color: gainsboro;
+  background: hsl(219, 80%, 64%);
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
 }
 .nav-toggle:hover {
-  color: gold;
+  color: purple;
   transform: rotate(90deg);
 }
 .logo {
@@ -162,7 +123,7 @@ nav {
 }
 .links a:hover {
   background: blue;
-  color: gold;
+  color: purple;
   font-size: 18px;
   border-radius: 10px;
 }
