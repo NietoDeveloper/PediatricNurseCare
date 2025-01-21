@@ -19,9 +19,6 @@
 
 @media screen and (min-width: 968px) {
   :root {
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
@@ -89,6 +86,7 @@ main {
 nav {
   background: transparent;
   box-shadow: var(--light-shadow);
+  margin-top: 10px;
 }
 .nav-header {
   display: flex;
@@ -106,20 +104,21 @@ nav {
   cursor: pointer;
 }
 .nav-toggle:hover {
-  color: gold;
+  color: purple;
   transform: rotate(90deg);
 }
 .logo {
   height: 30px;
-  width: 200px;
+  width: 400px;
   margin-left: 10px;
   margin-top: 5px;
-  font-size: 24px;
+  font-size: 21px;
 }
 
 
 .links a {
-  color: gold;
+  margin-top: 20px;
+  color: purple;
   font-size: 17px;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -199,15 +198,15 @@ nav {
   align-items: center;
   justify-content: center;
 }
-.texto-encabezado h2{
+.texto-encabezado h2, p {
   color: purple;
   text-align: center;
-  font-size: 40px;
-  margin-top: 60px;
+  font-size: 35px;
+  margin-top: 50px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h2{
-      font-size: 55px;
+      font-size: 50px;
   }
 }
 
