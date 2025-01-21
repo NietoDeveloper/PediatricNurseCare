@@ -1,142 +1,9 @@
-const navMenu = document.getElementById('nav-menu'),
-    navToggle = document.getElementById('nav-toggle'),
-    navClose = document.getElementById('nav-close');
+const navToggle = document.querySelector(".nav-toggle");
+const links = document.querySelector(".links");
 
-/*===== MENU SHOW =====*/
-/* Validate if constant exists */
-if (navToggle) {
-    navToggle.addEventListener('click', () => {
-        navMenu.classList.add('show-menu');
-    })
-}
-
-/*===== MENU HIDDEN =====*/
-/* Validate if constant exists */
-if (navClose) {
-    navClose.addEventListener('click', () => {
-        navMenu.classList.remove('show-menu');
-    })
-}
-
-
-/*=============== REMOVE MENU MOBILE ===============*/
-const navLink = document.querySelectorAll('.nav__link')
-
-function linkAction() {
-    const navMenu = document.getElementById('nav-menu');
-    // When we click on each nav__link, we remove the show-menu class
-    navMenu.classList.remove('show-menu');
-}
-navLink.forEach(n => n.addEventListener('click', linkAction));
-
-/*=============== CHANGE BACKGROUND HEADER ===============*/
-function scrollHeader() {
-    const header = document.getElementById('header')
-    // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
-    if (this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
-}
-window.addEventListener('scroll', scrollHeader)
-
-/*===============  JS FOR VIDEO SLIDER ===============*/
-const btns = document.querySelectorAll(".slider__bg-navBtn");
-const slides = document.querySelectorAll(".video__slide");
-
-var sliderNav = function (manual) {
-    btns.forEach((btn) => {
-        btn.classList.remove("active");
-    });
-
-    slides.forEach((slide) => {
-        slide.classList.remove("active");
-    });
-
-
-    btns[manual].classList.add("active");
-    slides[manual].classList.add("active");
-}
-
-btns.forEach((btn, i) => {
-    btn.addEventListener("click", () => {
-        sliderNav(i);
-    });
-});
-
-
-let swiperPopular = new Swiper(".popular__container", {
-    loop: true,
-    spaceBetween: 24,
-    slidesPerView: 'auto',
-    grabCursor: true,
-
-
-    pagination: {
-        el: ".swiper-pagination",
-        dynamicBullets: true,
-    },
-
-    breakpoints: {
-
-        768: {
-            slidesPerView: 3,
-
-        },
-        1024: {
-
-            spaceBetween: 48,
-        },
-    },
-});
-
-/*=============== MIXITUP FILTER FEATURED ===============*/
-
-let mixerFeatured = mixitup('.featured__content', {
-    selectors: {
-        target: '.featured__card'
-    },
-    animation: {
-        duration: 300
-    }
-});
-
-/* Link active color featured */
-
-const linkFeatured = document.querySelectorAll('.featured__item');
-
-function activeFeatured() {
-    linkFeatured.forEach(l => l.classList.remove('active-featured'));
-    this.classList.add('active-featured');
-}
-
-linkFeatured.forEach(l => l.addEventListener('click', activeFeatured));
-
-function scrollUp() {
-    const scrollUp = document.getElementById('scroll-up');
-    if (this.scrollY >= 350) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
-}
-window.addEventListener('scroll', scrollUp)
-
-const sections = document.querySelectorAll('section[id]')
-
-function scrollActive() {
-    const scrollY = window.pageYOffset
-
-    sections.forEach(current => {
-        const sectionHeight = current.offsetHeight,
-            sectionTop = current.offsetTop - 58,
-            sectionId = current.getAttribute('id')
-
-        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
-        } else {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
-        }
-    })
-}
-window.addEventListener('scroll', scrollActive)
-
-
-const d = new Date();
-document.getElementById("date").innerHTML = d;
+navToggle.addEventListener('click', function() {
+    links.classList.toggle('show-links');
+})
 
 const sr = ScrollReveal({
     origin: 'top',
@@ -159,3 +26,7 @@ sr.reveal(`.about__data, .offer__img, .home__social-icon`, { origin: 'right' });
 sr.reveal(`.features__map, .slider__bg`, { delay: 600, origin: 'bottom' });
 sr.reveal(`.features__card`, { interval: 300 });
 sr.reveal(`.featured__card, .logos__content, .footer__content`, { interval: 100 });
+
+
+const d = new Date();
+document.getElementById("date").innerHTML = d;

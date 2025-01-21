@@ -2,23 +2,7 @@
 @import url("assets/css/myCustom.css");
 
 :root {
-  --header-height: 3.5rem;
 
-  /*========== My Custom Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(219, 69%, 56%);
-  --first-color-alt: hsl(219, 69%, 52%);
-  --title-color: hsl(219, 8%, 95%);
-  --text-color: hsl(219, 8%, 75%);
-  --text-color-light: hsl(219, 4%, 55%);
-  --white-color: #fff;
-  /* --body-color: hsl(219, 4%, 4%); */
-
-  --body-color: hsl(240, 56%, 38%);
-  --container-color: hsl(219, 4%, 7%);
-
-  /*========== My Custom Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: 'Exo', sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
