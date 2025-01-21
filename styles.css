@@ -7,12 +7,6 @@
   --blue: blue;
   --oscuro: #000;
   --body-font: 'Exo', sans-serif;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
 
   /*========== Font weight ==========*/
   --font-medium: 500;
@@ -49,7 +43,7 @@ html {
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: hsl(219, 80%, 64%);
+  background-color: hsl(219, 100%, 71%);
   color: var(--text-color);
   margin: 0;
 }
@@ -59,7 +53,7 @@ h2,
 h3 {
   font-family: var(--titulos);
   font-weight: var(--font-semi-bold);
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 
 p, a {
@@ -70,18 +64,6 @@ p, a {
 .foto .img {
   max-width: 100%;
   height: auto;
-}
-
-.gold {
-  color: var(--gold);
-}
-
-.blue {
-  color: var(--blue);
-}
-
-.scarlet {
-  color: var(--scarlet);
 }
 
 .section {
@@ -104,10 +86,8 @@ main {
   place-items: center;
 }
 
-}
-
 nav {
-  background: black;
+  background: transparent;
   box-shadow: var(--light-shadow);
 }
 .nav-header {
@@ -119,8 +99,8 @@ nav {
 .nav-toggle {
   font-size: 25px;
   margin-right: 15px;
-  color: blue;
-  background: black;
+  color: rgb(255, 255, 255);
+  background: hsl(219, 100%, 71%);
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
@@ -130,16 +110,16 @@ nav {
   transform: rotate(90deg);
 }
 .logo {
-  height: 40px;
+  height: 30px;
   width: 200px;
   margin-left: 10px;
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 
 .links a {
-  color: blue;
+  color: gold;
   font-size: 17px;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -155,7 +135,7 @@ nav {
 }
 .social-icons {
   display: none;
-  font-size: 16px;
+  font-size: 18px;
 }
 /* By default hide the links */
 .links {
@@ -220,13 +200,14 @@ nav {
   justify-content: center;
 }
 .texto-encabezado h2{
-  color: gainsboro;
+  color: purple;
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
+  margin-top: 60px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h2{
-      font-size: 65px;
+      font-size: 55px;
   }
 }
 
