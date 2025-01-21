@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap");
-@import url("assets/css/myCustom.css");
 
 :root {
-
+  --gold: gold;
+  --scarlet: rgb(112, 4, 4);
+  --gainsboro: gainsboro;
+  --blue: blue;
+  --oscuro: #000;
   --body-font: 'Exo', sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -31,11 +34,12 @@
   }
 }
 
-
-* {
-  box-sizing: border-box;
-  padding: 0;
+*,
+::after,
+::before {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -47,55 +51,45 @@ body {
   font-size: var(--normal-font-size);
   background-color: hsl(219, 80%, 64%);
   color: var(--text-color);
+  margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
+  font-family: var(--titulos);
   font-weight: var(--font-semi-bold);
   color: aliceblue;
 }
 
-ul {
-  list-style: none;
-}
-
-a {
+p, a {
+  font-family: var(--parrafos);
   text-decoration: none;
 }
 
-img {
+.foto .img {
   max-width: 100%;
   height: auto;
 }
 
-
-*,
-::after,
-::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.gold {
+  color: var(--gold);
 }
 
-ul {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
+.blue {
+  color: var(--blue);
 }
 
-p {
-  margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+.scarlet {
+  color: var(--scarlet);
 }
-@media screen and (min-width: 800px) {
-
 
 .section {
   padding: 5rem 0;
 }
 
 .section-center {
-  width: 100vw;
+  width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
 }
@@ -113,33 +107,34 @@ main {
 }
 
 nav {
-  background: transparent;
+  background: black;
+  box-shadow: var(--light-shadow);
 }
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px;
-  margin-left: 15px;
+  padding: 1rem;
 }
 .nav-toggle {
-  font-size: 30px;
+  font-size: 25px;
   margin-right: 15px;
-  color: gainsboro;
-  background: hsl(219, 80%, 64%);
+  color: blue;
+  background: black;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
 }
 .nav-toggle:hover {
-  color: purple;
+  color: gold;
   transform: rotate(90deg);
 }
 .logo {
   height: 40px;
-  width: 250px;
-  margin-top: 10px;
-  font-size: 25px;
+  width: 200px;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 20px;
 }
 
 
@@ -154,7 +149,7 @@ nav {
 }
 .links a:hover {
   background: blue;
-  color: purple;
+  color: gold;
   font-size: 18px;
   border-radius: 10px;
 }
@@ -211,6 +206,29 @@ nav {
   .social-icons a:hover {
     color: gold;
     font-size: 18px;
+  }
+}
+
+
+
+.texto-encabezado{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.texto-encabezado h2{
+  color: gainsboro;
+  text-align: center;
+  font-size: 45px;
+}
+@media(min-width: 680px) {
+  .texto-encabezado h2{
+      font-size: 65px;
   }
 }
 
