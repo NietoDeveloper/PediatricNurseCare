@@ -62,6 +62,12 @@ p, a {
   max-width: 100%;
   height: auto;
 }
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
 
 .section {
   padding: 5rem 0;
@@ -110,7 +116,6 @@ nav {
 .logo {
   height: 30px;
   width: 280px;
-  margin-top: 5px;
   font-size: 20px;
 }
 
@@ -118,11 +123,10 @@ nav {
 .links a {
   margin-top: 20px;
   color: purple;
-  font-size: 17px;
+  font-size: 15px;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
-  padding: 5px 5px;
   transition: var(--transition);
 }
 .links a:hover {
@@ -178,7 +182,7 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: blue;
+    color: purple;
     transition: var(--transition);
   }
   .social-icons a:hover {
