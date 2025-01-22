@@ -810,3 +810,51 @@ nav {
       padding: 1rem;
   }
 }
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.footer h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  line-height: 22px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer .social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer .social-icons li a {
+  font-size: 20px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+}
