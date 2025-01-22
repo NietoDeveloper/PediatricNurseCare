@@ -98,7 +98,7 @@ nav {
   cursor: pointer;
 }
 .nav-toggle:hover {
-  color: purple;
+  color: gold;
   transform: rotate(90deg);
 }
 .logo {
@@ -857,4 +857,21 @@ nav {
 .copyright {
   text-align: center;
   margin-top: 30px;
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: purple;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: gold;
 }
