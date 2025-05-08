@@ -103,8 +103,9 @@ nav {
 }
 .logo {
   height: 30px;
-  width: 280px;
+  width: 250px;
   font-size: 20px;
+  margin-left: 30px;
 }
 
 
@@ -192,8 +193,8 @@ nav {
 .texto-encabezado h2, p {
   color: purple;
   text-align: center;
-  font-size: 35px;
-  margin-top: 50px;
+  font-size: 30px;
+  margin-top: 20px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h2{
