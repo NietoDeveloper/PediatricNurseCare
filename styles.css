@@ -572,12 +572,6 @@ nav {
   opacity: 0.8;
 }
 
-@media (max-width: 520px) {
-  
-}
-
-.background__6
-
 .background__6--text{
   display: flex;
   justify-content: center;
