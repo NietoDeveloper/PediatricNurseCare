@@ -806,6 +806,7 @@ nav {
   padding: 50px 0;
   align-items: center;
   text-align: center;
+  margin-top: 30px;
 }
 
 .footer h2 {
@@ -819,13 +820,13 @@ nav {
 
 .footer h4 {
   font-size: 15px;
-  font-weight: bold;
-  margin-bottom: 10px;
   margin-top: 10px;
+  color: purple;
 }
 
-.footer p {
-  line-height: 22px;
+.footer .thissite {
+  margin-top: 35px;
+  margin-bottom: 10px;
 }
 
 .footer ul {
@@ -835,11 +836,12 @@ nav {
 
 .footer ul li {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .footer ul li a {
   text-decoration: none;
-  color: #333;
+  color: purple;
 }
 
 .footer .social-icons {
@@ -859,6 +861,7 @@ nav {
 .copyright {
   text-align: center;
   margin-top: 30px;
+  color: gainsboro;
 }
 
 
@@ -870,10 +873,10 @@ nav {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: hsl(0, 0%, 100%);
+  background-color: gainsboro;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: gold;
+  background-color: hsl(219, 100%, 71%);
 }
