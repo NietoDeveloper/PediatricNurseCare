@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap");
 
 :root {
-  --gold: gold;
-  --scarlet: rgb(112, 4, 4);
-  --gainsboro: gainsboro;
-  --blue: blue;
-  --oscuro: #000;
+
   --body-font: 'Exo', sans-serif;
   --font-medium: 500;
   --font-semi-bold: 600;
@@ -38,7 +34,7 @@ h2,
 h3 {
   font-family: var(--titulos);
   font-weight: var(--font-semi-bold);
-  color: rgb(255, 255, 255);
+  color: gainsboro;
 }
 
 p, a {
@@ -824,7 +820,8 @@ nav {
 .footer h4 {
   font-size: 15px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .footer p {
