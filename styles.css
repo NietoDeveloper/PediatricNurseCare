@@ -803,19 +803,18 @@ nav {
 
 .footer {
   background-color: hsl(219, 100%, 71%);
-  padding: 50px 0;
+  padding: 40px 0;
   align-items: center;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .footer h2 {
-  font-size: 38px;
-  margin-bottom: 10px;
+  font-size: 40px;
 }
 
 .footer h3 {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .footer h4 {
@@ -842,6 +841,10 @@ nav {
 .footer ul li a {
   text-decoration: none;
   color: purple;
+}
+
+.footer .developer {
+  margin-top: 30px;
 }
 
 .footer .social-icons {
