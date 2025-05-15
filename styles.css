@@ -812,6 +812,10 @@ nav {
   text-align: center;
 }
 
+.footer h2 {
+  font-size: 30px;
+}
+
 .footer h5 {
   font-size: 18px;
   font-weight: bold;
