@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/[your-github-username]/[your-repo-name])](https://github.com/[your-github-username]/[your-repo-name]/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/[your-github-username]/[your-repo-name])](https://github.com/[your-github-username]/[your-repo-name]/network/members)
-[![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2F[your-github-username]%2F[your-repo-name])](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2F[your-github-username]%2F[your-repo-name]) > A concise and engaging description of your Vanilla JavaScript project. Highlight its main purpose and key features in a sentence or two.
+> A concise and engaging description of your Vanilla JavaScript project. Highlight its main purpose and key features in a sentence or two.
 
 ![Optional: Project Screenshot or Demo GIF](path/to/your/screenshot.gif)
 
@@ -61,11 +61,8 @@ Provide clear and concise steps on how to get the project files. For a front-end
     cd [your-repo-name]
     ```
 
-### Usage
 
-Explain how to use your project. Provide examples of how to interact with it or integrate it into an existing website. Include code snippets if necessary.
+**Run:**
 
-**Example:**
-
-1. Open the `index.html` file in your
+1. Open the `index.html` and run
 
