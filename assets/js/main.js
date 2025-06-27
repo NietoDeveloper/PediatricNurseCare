@@ -13,7 +13,7 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.home__title, .popular__container, .features__img, .featured__filters`);
-sr.reveal(`.home__subtitle`, { delay: 500 });
+sr.reveal(`.home`, { delay: 500 });
 sr.reveal(`.home__elec`, { delay: 600 });
 sr.reveal(`.home__img`, { delay: 800 });
 sr.reveal(`.home__car-data, .footer__copy`, { delay: 900, interval: 100, origin: 'bottom' });
