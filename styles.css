@@ -185,12 +185,12 @@ nav {
 }
 @media(min-width: 475px) {
   .texto-encabezado h2{
-      font-size: 40px;
+      font-size: 38px;
   }
 }
 @media(min-width: 580px) {
   .texto-encabezado h2{
-      font-size: 50px;
+      font-size: 58px;
   }
 }
 
@@ -205,19 +205,19 @@ nav {
   justify-content: center;
 }
 .texto-encabezado-2 h3 {
-  color: purple;
+  color: rgb(20, 20, 215);
   text-align: center;
-  font-size: 18px;
-  margin-top: 10px;
+  font-size: 20px;
+  margin-top: 300px;
 }
 @media(min-width: 475px) {
   .texto-encabezado-2 h3{
-      font-size: 40px;
+      font-size: 24px;
   }
 }
 @media(min-width: 580px) {
   .texto-encabezado-2 h3{
-      font-size: 50px;
+      font-size: 30px;
   }
 }
 
