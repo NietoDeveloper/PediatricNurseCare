@@ -180,7 +180,7 @@ nav {
 .texto-encabezado h2 {
   color: purple;
   text-align: center;
-  font-size: 30px;
+  font-size: 36px;
   margin-top: 10px;
 }
 @media(min-width: 475px) {
@@ -204,19 +204,19 @@ nav {
   align-items: center;
   justify-content: center;
 }
-.texto-encabezado h2 {
+.texto-encabezado-2 h3 {
   color: purple;
   text-align: center;
-  font-size: 30px;
+  font-size: 18px;
   margin-top: 10px;
 }
 @media(min-width: 475px) {
-  .texto-encabezado h2{
+  .texto-encabezado-2 h3{
       font-size: 40px;
   }
 }
 @media(min-width: 580px) {
-  .texto-encabezado h2{
+  .texto-encabezado-2 h3{
       font-size: 50px;
   }
 }
