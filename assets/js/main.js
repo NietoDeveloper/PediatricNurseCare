@@ -12,18 +12,14 @@ const sr = ScrollReveal({
     delay: 400,
 })
 
-sr.reveal(`.texto-encabezado`, { delay: 500 });
-sr.reveal(`.home__elec`, { delay: 600 });
-sr.reveal(`.home__img`, { delay: 800 });
-sr.reveal(`.home__car-data, .footer__copy`, { delay: 900, interval: 100, origin: 'bottom' });
-sr.reveal(`.home__button`, { delay: 1000, origin: 'bottom' });
-
-sr.reveal(`.about__group, .offer__data`, { origin: 'left' });
-sr.reveal(`.about__data, .offer__img, .home__social-icon`, { origin: 'right' });
-
-sr.reveal(`.features__map, .slider__bg`, { delay: 600, origin: 'bottom' });
-sr.reveal(`.features__card`, { interval: 300 });
-sr.reveal(`.featured__card, .logos__content, .footer__content`, { interval: 100 });
+sr.reveal(`.texto-encabezado`, { delay: 400, origin: 'top'});
+sr.reveal(`.welcome`, { delay: 100 });
+sr.reveal(`.card`, { delay: 150 });
+sr.reveal(`.footer__logo`, { delay: 200 });
+sr.reveal(`.footer__content`, { interval: 250 });
+sr.reveal(`.footer__copy`), { interval: 300 };
+sr.reveal(`footer__dev-link`, { interval: 300 });
+sr.reveal(`date`, { interval: 350 }) 
 
 
 const d = new Date();
