@@ -83,15 +83,14 @@ nav {
   color: gold;
   transform: rotate(90deg);
 }
+
+
 .logo {
-  font-size: 18px;
-  margin-left: 20px;
-  width: 150px;
+  margin-bottom: 15px;
 }
 @media(min-width: 520px) {
   .Logo {
-      font-size: 24px;
-      margin-left: 40px;
+ 
   }
 }
 
