@@ -86,7 +86,7 @@ nav {
 
 
 .logo {
-
+  margin-bottom: 5px;
 }
 @media(min-width: 520px) {
   .Logo {
