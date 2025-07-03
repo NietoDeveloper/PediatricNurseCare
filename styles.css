@@ -876,22 +876,18 @@ nav {
 }
 
 .footer h2 {
-  font-size: 40px;
+  font-size: 52px;
 }
 
 .footer h3 {
-  font-size: 20px;
-  margin-bottom: 25px;
-  margin-top: 60px;
-}
-
-.copyfecha {
-  margin-top: 50px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .footer h4 {
-  font-size: 15px;
-  margin-top: 5px;
+  font-size: 20px;
+  margin-top: 6px;
   color: purple;
 }
 
@@ -909,8 +905,12 @@ nav {
   color: purple;
 }
 
+.copyfecha {
+  margin-top: 50px;
+}
+
 .footer .developer {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .footer .social-icons {
