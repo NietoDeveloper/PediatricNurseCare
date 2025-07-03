@@ -873,7 +873,6 @@ nav {
   padding: 40px 0;
   align-items: center;
   text-align: center;
-  margin-top: 10px;
 }
 
 .footer h2 {
@@ -881,24 +880,23 @@ nav {
 }
 
 .footer h3 {
-  font-size: 15px;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  margin-top: 60px;
 }
 
 .copyfecha {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .footer h4 {
   font-size: 15px;
   margin-top: 5px;
-  margin-bottom: 5px;
   color: purple;
 }
 
 .footer .thissite {
-  margin-top: 35px;
+  margin-top: 50px;
 }
 
 .footer ul {
@@ -912,7 +910,7 @@ nav {
 }
 
 .footer .developer {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .footer .social-icons {
