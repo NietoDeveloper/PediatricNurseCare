@@ -895,9 +895,9 @@ nav {
   margin-top: 40px;
 }
 
-.footer .thissite .copyfechap {
-  margin-top: 80px;
-  font-size: 18px;
+.footer .thissite p {
+  margin-top: 30px;
+  font-size: 21px;
 }
 
 .footer ul {
@@ -912,7 +912,7 @@ nav {
 }
 
 .footer .developer {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .footer .social-icons {
