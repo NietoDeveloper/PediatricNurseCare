@@ -892,7 +892,12 @@ nav {
 }
 
 .footer .thissite {
-  margin-top: 50px;
+  margin-top: 40px;
+}
+
+.thissite .copyfecha {
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 .footer ul {
@@ -903,14 +908,11 @@ nav {
 .footer ul li a {
   text-decoration: none;
   color: purple;
-}
-
-.copyfecha {
-  margin-top: 50px;
+  font-size: 23px;
 }
 
 .footer .developer {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .footer .social-icons {
