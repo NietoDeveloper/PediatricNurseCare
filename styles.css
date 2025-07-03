@@ -881,7 +881,13 @@ nav {
 }
 
 .footer h3 {
-  font-size: 17px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.copyfecha {
+  margin-top: 20px;
 }
 
 .footer h4 {
@@ -906,7 +912,7 @@ nav {
 }
 
 .footer .developer {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .footer .social-icons {
@@ -928,9 +934,6 @@ nav {
   margin-top: 30px;
   color: gainsboro;
 }
-
-
-
 
 ::-webkit-scrollbar {
   width: 12px;
