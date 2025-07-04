@@ -892,6 +892,10 @@ nav {
 .footer .thissite {
   margin-top: 10px;
 }
+.footer .thissite a:hover {
+  color: gold;
+  font-size: 26px;
+}
 
 .footer .thissite p {
   margin-top: 10px;
@@ -939,7 +943,9 @@ nav {
 .footer .logoenlacesredes .redes li a {
   font-size: 50px;
 }
-
+.footer .logoenlacesredes .redes li a:hover {
+  font-size: 60px;
+}
 
 
 ::-webkit-scrollbar {
