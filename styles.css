@@ -870,7 +870,7 @@ nav {
 
 .footer {
   background-color: hsl(219, 100%, 71%);
-  padding: 40px 0;
+  padding: 20px 0;
   align-items: center;
   text-align: center;
 }
@@ -881,7 +881,7 @@ nav {
 }
 
 .footer h3 {
-  font-size: 25px;
+  font-size: 26px;
 }
 
 .footer h4 {
@@ -890,7 +890,7 @@ nav {
 }
 
 .footer .thissite {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .footer .thissite p {
@@ -907,37 +907,37 @@ nav {
 .footer ul li a {
   text-decoration: none;
   color: purple;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .footer .developer {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .footer .developer h3 {
-  margin-top: 15px;
-  font-size: 23px;
+  margin-top: 5px;
+  font-size: 21px;
   color: purple;
 }
 
 .footer .developer p {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-size: 18px;
   color: gainsboro;
 }
 
 .footer .logoenlacesredes {
-  list-style: none;
-  padding: 0;
+  margin-top: 20px;
+  display: inline-block;
 }
 
 .footer .logoenlacesredes li {
   display: inline-block;
-  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-.footer .logoenlacesredes li a {
-  font-size: 30px;
+.footer .logoenlacesredes .redes li a {
+  font-size: 50px;
 }
 
 
