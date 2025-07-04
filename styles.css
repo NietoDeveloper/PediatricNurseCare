@@ -877,27 +877,26 @@ nav {
 
 .footer h2 {
   font-size: 52px;
+  color: gainsboro;
 }
 
 .footer h3 {
   font-size: 25px;
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
 
 .footer h4 {
   font-size: 20px;
-  margin-top: 6px;
-  color: purple;
+  color: rgb(29, 26, 26);
 }
 
 .footer .thissite {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .footer .thissite p {
-  margin-top: 30px;
-  font-size: 21px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: gainsboro;
 }
 
 .footer ul {
@@ -908,32 +907,40 @@ nav {
 .footer ul li a {
   text-decoration: none;
   color: purple;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .footer .developer {
   margin-top: 30px;
 }
 
-.footer .social-icons {
+.footer .developer h3 {
+  margin-top: 15px;
+  font-size: 23px;
+  color: purple;
+}
+
+.footer .developer p {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: gainsboro;
+}
+
+.footer .logoenlacesredes {
   list-style: none;
   padding: 0;
 }
 
-.footer .social-icons li {
+.footer .logoenlacesredes li {
   display: inline-block;
   margin-right: 10px;
 }
 
-.footer .social-icons li a {
-  font-size: 20px;
+.footer .logoenlacesredes li a {
+  font-size: 30px;
 }
 
-.copyright {
-  text-align: center;
-  margin-top: 30px;
-  color: gainsboro;
-}
+
 
 ::-webkit-scrollbar {
   width: 12px;
