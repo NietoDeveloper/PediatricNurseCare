@@ -85,16 +85,6 @@ nav {
 }
 
 
-.logo {
-  margin-bottom: 5px;
-}
-@media(min-width: 520px) {
-  .Logo {
- 
-  }
-}
-
-
 .links a {
   margin-top: 20px;
   color: purple;
@@ -923,6 +913,10 @@ nav {
   font-size: 21px;
   color: purple;
 }
+.footer .developer h3:hover {
+  color: gold;
+  font-size: 25px;
+}
 
 .footer .developer p {
   margin-bottom: 10px;
@@ -949,7 +943,7 @@ nav {
 
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
   background-color: purple;
 }
 
@@ -959,5 +953,5 @@ nav {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(219, 100%, 71%);
+  background-color: gold;
 }
