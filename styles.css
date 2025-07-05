@@ -669,12 +669,9 @@ nav {
   
 }
 
-.background__8 .botonblogo {
+.background__8 .botonblogo a {
+
   
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height:15rem;
 
 }
 
