@@ -667,15 +667,15 @@ nav {
   height: 50rem;
   opacity: 0.8;
   
-  
 }
 
-.background__8--text{
+.background__8 .botonblogo {
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  height:35rem;
- 
+  height:15rem;
+
 }
 
 .background__8 h1{
