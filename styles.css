@@ -669,9 +669,12 @@ nav {
   
 }
 
-.background__8 .botonblogo a {
-
-  
+.botonlogo {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: -180px;
+  font-size: 24px;
 
 }
 
