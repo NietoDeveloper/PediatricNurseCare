@@ -95,7 +95,7 @@ nav {
   transition: var(--transition);
 }
 .links a:hover {
-  background: blue;
+  background: purple;
   color: gold;
   font-size: 18px;
   border-radius: 10px;

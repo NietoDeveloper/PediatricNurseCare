@@ -95,7 +95,7 @@ nav {
   transition: var(--transition);
 }
 .links a:hover {
-  background: blue;
+  background: purple;
   color: gold;
   font-size: 18px;
   border-radius: 10px;
@@ -394,6 +394,42 @@ nav {
   text-decoration: uppercase;
 }
 
+.background__9 {
+  background-image: url(assets/pics/alimentacioncomplementaria.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50rem;
+  opacity: 0.8;
+}
+
+.background__9--text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:35rem;
+}
+
+
+.background__9 h1{
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  background-color: rgb(29, 26, 26);
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 7px;
+  border-radius: 13px 0px 13px 0px;
+  outline: 0.5rem inset purple;
+  outline-offset: 0.6rem;
+  text-transform: uppercase;
+}
 
 
 @media (max-width: 2560px) {
