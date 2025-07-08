@@ -3,8 +3,8 @@ let link = document.getElementById("link");
 
 copybtn.onclick = function () {
     navigator.clipboard.writeText(link.innerHTML);
-    copybtn.innerHTML = "Copied"
+    copybtn.innerHTML = "Copiado"
     setTimeout(function (){
-        copybtn.innerHTML = "Copy"
+        copybtn.innerHTML = "Copiar"
     }, 2000)
 }
