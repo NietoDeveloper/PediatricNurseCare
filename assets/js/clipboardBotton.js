@@ -8,3 +8,4 @@ copybtn.onclick = function () {
         copybtn.innerHTML = "Copiar"
     }, 2000)
 }
+
