@@ -857,79 +857,235 @@ nav {
   input[type='submit']:hover {
     background-color: #0056b3;
   }
-  
 
-  /*Cards*/
-.container-card{
-	width: 100%;
-	display: flex;
-	max-width: 1100px;
-	margin: auto;
+
+  .container {
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px;
+    width: 250px;
+    box-shadow: 10px 10px 20px black;
+    transition: all 400ms ease-out;
+    align-items: center;
 }
-.title-cards{
-	width: 100%;
-	max-width: 1080px;
-	margin: auto;
-	padding: 20px;
-	margin-top: 20px;
-	text-align: center;
-	color: #7a7a7a;
+
+@media screen and (min-width: 420px) {
+    .container {
+        width: 285px;
+    }
 }
-.card{
-	width: 100%;
-	margin: 20px;
-	border-radius: 6px;
-	overflow: hidden;
-	background:#fff;
-	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-	transition: all 400ms ease-out;
-	cursor: default;
+
+@media screen and (min-width: 520px) {
+    .container {
+        width: 360px;
+    }
 }
-.card:hover{
-	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-	transform: translateY(-3%);
+
+@media screen and (min-width: 650px) {
+    .container {
+        width: 440px;
+    }
 }
-.card img{
-	width: 100%;
-	height: 210px;
+
+@media screen and (min-width: 800px) {
+    .container {
+        width: 500px;
+    }
 }
-.card .contenido-card{
-	padding: 15px;
-	text-align: center;
+
+@media screen and (min-width: 1100px) {
+    .container {
+        width: 700px;
+    }
 }
-.card .contenido-card h3{
-	margin-bottom: 15px;
-	color: #7a7a7a;
+
+.container:hover {
+    border: 3px;
+    box-shadow: 0px 35px 40px black;
+    transform: translateY(-7%);
 }
-.card .contenido-card p{
-	line-height: 1.8;
-	color: #6a6a6a;
-	font-size: 14px;
-	margin-bottom: 5px;
+
+.step {
+    text-align: center;
+    align-items: center;
 }
-.card .contenido-card a{
-	display: inline-block;
-	padding: 10px;
-	margin-top: 10px;
-	text-decoration: none;
-	color: #2fb4cc;
-	border: 1px solid #2fb4cc;
-	border-radius: 4px;
-	transition: all 400ms ease;
-	margin-bottom: 5px;
+
+.step h1 {
+    font-size: 23px;
+    color: gainsboro;
+    margin: 15px 5px;
 }
-.card .contenido-card a:hover{
-	background: #2fb4cc;
-	color: #fff;
+
+@media(min-width: 600px) {
+    .step h1 {
+        font-size: 27px;
+    }
 }
-@media only screen and (min-width:320px) and (max-width:768px){
-	.container-card{
-		flex-wrap: wrap;
-	}
-	.card{
-		margin: 15px;
-	}
+
+@media(min-width: 800px) {
+    .step h1 {
+        font-size: 30px;
+    }
 }
+
+@media(min-width: 999px) {
+    .step h1 {
+        font-size: 34px;
+    }
+}
+
+.step h2 {
+    font-size: 21px;
+    margin: 15px 5px;
+    color: gold;
+}
+
+@media(min-width: 600px) {
+    .step h2 {
+        font-size: 26px;
+    }
+}
+
+@media(min-width: 800px) {
+    .step h2 {
+        font-size: 35px;
+    }
+}
+
+@media(min-width: 999px) {
+    .step h2 {
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 1100px) {
+    .step h2 {
+        font-size: 50px;
+    }
+}
+
+.step h3 {
+    color: blue;
+    font-size: 22px;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+.step h3:hover {
+    color: gold;
+}
+
+@media(min-width: 600px) {
+    .step h3 {
+        font-size: 25px;
+    }
+}
+
+@media(min-width: 800px) {
+    .step h3 {
+        font-size: 28px;
+    }
+}
+
+@media(min-width: 999px) {
+    .step h3 {
+        font-size: 33px;
+    }
+}
+
+@media(min-width: 1100px) {
+    .step h3 {
+        font-size: 37px;
+    }
+}
+
+.step p {
+    font-size: 14px;
+    color: blue;
+    text-decoration: none;
+}
+.step p:hover {
+    color: gold;
+}
+
+@media(min-width: 600px) {
+    .step p {
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 800px) {
+    .step p {
+        font-size: 21px;
+    }
+}
+
+@media(min-width: 999px) {
+    .step p {
+        font-size: 25px;
+    }
+}
+
+@media(min-width: 1100px) {
+    .step p {
+        font-size: 29px;
+    }
+}
+
+
+.copyfield{
+    display: flex;
+    align-items: center;
+}
+
+#link{
+    align-items: center;
+    width: 75%;
+    height: 50px;
+    padding: 4px 4px;
+    border: 2px solid blue;
+    background-color: #fff;
+    font-size: 17px;
+    overflow-x: scroll;
+    margin-right: 3px;
+}
+#link::-webkit-scrollbar{
+    height: 8px;
+    border-radius: 2px;
+}
+
+#copy-btn{
+    width: 25%;
+    height: 55px;
+    cursor: pointer;
+    padding: 5px 2px;
+    border: 2px solid blue;
+    align-items: center;
+    background-color: var(--gold);
+}
+#copy-btn:hover {
+    background-color: var(--scarlet);
+    height: 60px;
+}
+#copy-btn p {
+    color: blue;
+    font-size: 18px;
+    margin-top: 5px;
+}
+#copy-btn p:hover {
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+
+@media(min-width: 700px) {
+    iframe {
+        width: 400px;
+    }
+}
+
 
 
 .footer {
