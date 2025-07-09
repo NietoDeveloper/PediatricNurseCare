@@ -669,17 +669,6 @@ nav {
   
 }
 
-.botonlogo {
-  text-align: center;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-top: -180px;
-  font-size: 24px;
-}
-.botonlogo a {
-  
-}
-
 .background__8 h1{
   padding: 1rem 1rem;
   display: flex;
@@ -820,7 +809,7 @@ nav {
 }
 
 
-  .container {
+  .contactomensaje {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -1096,16 +1085,16 @@ nav {
 }
 
 .footer h2 {
-  font-size: 48px;
+  font-size: 46px;
   color: gainsboro;
 }
 
 .footer h3 {
-  font-size: 24px;
+  font-size: 21px;
 }
 
 .footer h4 {
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(29, 26, 26);
 }
 
@@ -1150,7 +1139,7 @@ nav {
 
 .footer .developer p {
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 16px;
   color: gainsboro;
 }
 
