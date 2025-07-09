@@ -744,24 +744,6 @@ nav {
   height:25rem;
 }
 
-.background__10 h1{
-  padding: 1rem 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20rem;
-  background-color: rgb(29, 26, 26);
-  color: white;
-  font-size: 2.5rem;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  letter-spacing: 7px;
-  border-radius: 13px 0px 13px 0px;
-  outline: 0.5rem inset purple;
-  outline-offset: 0.6rem;
-  text-transform: uppercase;
-}
-
 
 @media (max-width: 2560px) {
 
@@ -850,11 +832,10 @@ nav {
   .container {
     background-color: transparent;
     backdrop-filter: blur(25px);
-    margin: 50px auto;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 50px 20px;
     border: 2px;
-    width: 250px;
+    height: 600px;
     box-shadow: 10px 10px 20px black;
     transition: all 400ms ease-out;
     align-items: center;
