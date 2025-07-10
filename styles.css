@@ -856,14 +856,16 @@ input[type='submit']:hover {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 45rem;
+  height: 50rem;
   opacity: 0.8;
+  text-align: center;
 }
 
 .copiaremail {
   background-color: transparent;
   backdrop-filter: blur(25px);
   margin: 50px auto;
+  margin-top: 100px;
   border-radius: 20px;
   padding: 10px 20px;
   border: 2px;
