@@ -758,43 +758,6 @@ nav {
   text-transform: uppercase;
 }
 
-.background__10 {
-  background-image: url(assets/pics/AndramunioOriginal.png);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 40rem;
-  opacity: 0.8;
-}
-
-.background__10--text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 35rem;
-}
-
-.background__10 h1 {
-  padding: 1rem 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20rem;
-  background-color: rgb(29, 26, 26);
-  color: white;
-  font-size: 2.5rem;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  letter-spacing: 7px;
-  border-radius: 13px 0px 13px 0px;
-  outline: 0.5rem inset purple;
-  outline-offset: 0.6rem;
-  text-transform: uppercase;
-}
-
-
 @media (max-width: 2560px) {
 
   .Full-Stack--header,
@@ -887,7 +850,9 @@ input[type='submit']:hover {
 }
 
 
-.monicaemail {}
+.monicaemail {
+  background-image: url(assets/pics/AndramunioOriginal.png);
+}
 
 .copiaremail {
   background-color: transparent;
