@@ -857,7 +857,7 @@ input[type='submit']:hover {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 30rem;
+  height: 45rem;
   opacity: 0.8;
 }
 
@@ -869,6 +869,7 @@ input[type='submit']:hover {
   padding: 10px 20px;
   border: 2px;
   width: 280px;
+  height: 300px;
   box-shadow: 10px 10px 20px black;
   transition: all 400ms ease-out;
   align-items: center;
@@ -913,6 +914,7 @@ input[type='submit']:hover {
 .step {
   text-align: center;
   align-items: center;
+  margin-top: 40px;
 }
 
 .step h1 {
@@ -972,7 +974,7 @@ input[type='submit']:hover {
 .step h3 {
   color: blue;
   font-size: 22px;
-  margin: 15px 5px;
+  margin: 30px 5px;
   cursor: pointer;
 }
 
@@ -1007,6 +1009,7 @@ input[type='submit']:hover {
 .step p {
   font-size: 14px;
   color: blue;
+  margin-bottom: 15px;
   text-decoration: none;
 }
 
@@ -1042,6 +1045,7 @@ input[type='submit']:hover {
 .copyfield {
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 
 #link {
