@@ -856,7 +856,7 @@ input[type='submit']:hover {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 50rem;
+  height: 30rem;
   opacity: 0.8;
   text-align: center;
 }
@@ -865,7 +865,7 @@ input[type='submit']:hover {
   background-color: transparent;
   backdrop-filter: blur(25px);
   margin: 50px auto;
-  margin-top: 100px;
+  margin-top: 50px;
   border-radius: 20px;
   padding: 10px 20px;
   border: 2px;
