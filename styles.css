@@ -852,6 +852,13 @@ input[type='submit']:hover {
 
 .monicaemail {
   background-image: url(assets/pics/AndramunioOriginal.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30rem;
+  opacity: 0.8;
 }
 
 .copiaremail {
@@ -861,7 +868,7 @@ input[type='submit']:hover {
   border-radius: 20px;
   padding: 10px 20px;
   border: 2px;
-  width: 250px;
+  width: 280px;
   box-shadow: 10px 10px 20px black;
   transition: all 400ms ease-out;
   align-items: center;
@@ -869,31 +876,31 @@ input[type='submit']:hover {
 
 @media screen and (min-width: 420px) {
   .copiaremail {
-    width: 285px;
+    width: 340px;
   }
 }
 
 @media screen and (min-width: 520px) {
   .copiaremail {
-    width: 360px;
+    width: 400px;
   }
 }
 
 @media screen and (min-width: 650px) {
   .copiaremail {
-    width: 440px;
+    width: 500px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .copiaremail {
-    width: 500px;
+    width: 600px;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .copiaremail {
-    width: 700px;
+    width: 800px;
   }
 }
 
