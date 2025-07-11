@@ -176,7 +176,7 @@ nav {
 
 .Aws {
   background-color: black;
-  color: white;
+  color: gainsboro;
   border: 2px black solid;
   opacity: 0.8;
   padding: 2.5rem;
@@ -184,19 +184,20 @@ nav {
 }
 
 .Aws--header {
-  margin-top: 2rem;
+  margin-top: 15px;
   margin-bottom: 1rem;
   text-align: center;
-  line-height: 1rem;
+  font-size: 28px;
 }
+
 
 .Aws--text {
   padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
   line-height: 1.5rem;
-  text-align: center;
-  font-size: 0.8rem;
+  text-align: left;
+  font-size: 20px;
 }
 
 .background__3 {
@@ -386,7 +387,6 @@ nav {
   .Data--text,
   .Why--header,
   .Why--text {
-    font-size: 0.9rem;
     padding: 0.5rem;
     line-height: 1rem;
     outline-width: 0.2rem;
