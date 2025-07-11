@@ -174,18 +174,6 @@ nav {
   }
 }
 
-.contenido-header .dibujos {
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-
-}
-
-.contenido-header .dibujos {
-  margin-left: 320px;
-
-}
-
 .texto-encabezado {
   position: absolute;
   z-index: 2;
@@ -244,10 +232,28 @@ nav {
   }
 }
 
+.contenido-header .dibujos {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.contenido-header .dibujos {
+
+}
+
+.contenido-header .dibujos {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+
+}
+
 .banner {
   position: relative;
   width: 100%;
-  height: 85vh;
+  height: 90vh;
   margin-top: -1px;
 }
 
@@ -335,9 +341,9 @@ nav {
 }
 
 .banner .dibujo2 img  {
-  margin-top: 300px;
+  margin-top: 200px;
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
 
 .background__1 {
