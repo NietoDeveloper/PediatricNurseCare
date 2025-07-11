@@ -200,7 +200,6 @@ nav {
   color: purple;
   text-align: center;
   font-size: 36px;
-  margin-top: 10px;
 }
 
 @media(min-width: 475px) {
@@ -219,7 +218,6 @@ nav {
   position: absolute;
   z-index: 2;
   width: 100%;
-  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -230,7 +228,7 @@ nav {
   color: rgb(20, 20, 215);
   text-align: center;
   font-size: 20px;
-  margin-top: 300px;
+  margin-top: 250px;
 }
 
 @media(min-width: 475px) {
