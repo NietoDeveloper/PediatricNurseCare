@@ -190,18 +190,18 @@ nav {
   font-size: 28px;
 }
 
-
 .Aws--text {
-  padding: 10px;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  line-height: 1.5rem;
-  text-align: left;
+  padding: 8px;
+  margin-bottom: 2px;
+  text-align: justify;
   font-size: 18px;
+  letter-spacing: 1.4px;
+  word-spacing: 2.8px;
+  line-height: 1.5;
 }
 
 .background__3 {
-  background-image: url(assets/pics/montesori5.png);
+  background-image: url(assets/pics/lactanciamaterna.png);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -382,7 +382,6 @@ nav {
   .Full-Stack--header,
   .Full-Stack--text,
   .Aws--header,
-  .Aws--text,
   .Data--header,
   .Data--text,
   .Why--header,
