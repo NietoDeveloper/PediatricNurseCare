@@ -89,11 +89,10 @@ nav {
   transform: rotate(90deg);
 }
 
-
 .links a {
   margin-top: 20px;
   color: purple;
-  font-size: 15px;
+  font-size: 21px;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -103,7 +102,7 @@ nav {
 .links a:hover {
   background: purple;
   color: gold;
-  font-size: 18px;
+  font-size: 26px;
   border-radius: 10px;
 }
 
