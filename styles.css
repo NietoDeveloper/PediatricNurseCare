@@ -176,8 +176,13 @@ nav {
 }
 
 .dibujos {
-  align-items: ;
+  position: relative;
+  display: grid;
   
+}
+
+.contenido-header .dibujos .sol {
+  position: absolute;
 }
 
 .texto-encabezado {
