@@ -34,7 +34,7 @@ h2,
 h3 {
   font-family: var(--titulos);
   font-weight: var(--font-semi-bold);
-  color: gainsboro;
+  color: purple;
 }
 
 p,
@@ -380,7 +380,7 @@ nav {
   align-items: center;
   width: 20rem;
   background-color: rgb(29, 26, 26);
-  color: white;
+  color: gainsboro;
   font-size: 2.5rem;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -393,7 +393,7 @@ nav {
 
 .Full-Stack {
 
-  background-color: white;
+  background-color: gainsboro;
   opacity: 0.7;
   padding: 2.5rem;
 }
@@ -404,6 +404,9 @@ nav {
   text-align: center;
   line-height: 1rem;
 }
+.Full-Stack--header h2 {
+  color: rgb(29, 26, 26);
+}
 
 .Full-Stack--text {
   padding: 10px;
@@ -412,7 +415,6 @@ nav {
   line-height: 1.5rem;
   text-align: center;
   font-size: 0.8rem;
-
 }
 
 .background__2 {

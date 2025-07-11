@@ -34,7 +34,7 @@ h2,
 h3 {
   font-family: var(--titulos);
   font-weight: var(--font-semi-bold);
-  color: gainsboro;
+  color: purple;
 }
 
 p,
@@ -65,7 +65,6 @@ main {
 nav {
   background: transparent;
   box-shadow: var(--light-shadow);
-  margin-top: 10px;
 }
 
 .nav-header {
@@ -334,6 +333,10 @@ nav {
   background-color: white;
   opacity: 0.7;
   padding: 2.5rem;
+}
+
+.Data h2 {
+  color: purple;
 }
 
 .Data--header {

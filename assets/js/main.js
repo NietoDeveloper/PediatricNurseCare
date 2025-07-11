@@ -14,13 +14,6 @@ const sr = ScrollReveal({
 
 sr.reveal(`.texto-encabezado`, { delay: 400, origin: 'top'});
 sr.reveal(`.texto-encabezado-2`, { delay: 1200, origin: 'rigth' });
-sr.reveal(`.card`, { delay: 150 });
-sr.reveal(`.footer__logo`, { delay: 200 });
-sr.reveal(`.footer__content`, { interval: 250 });
-sr.reveal(`.footer__copy`), { interval: 300 };
-sr.reveal(`footer__dev-link`, { interval: 300 });
-sr.reveal(`date`, { interval: 350 }) 
-
 
 const d = new Date();
 document.getElementById("date").innerHTML = d;
