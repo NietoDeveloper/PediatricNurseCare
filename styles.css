@@ -410,7 +410,7 @@ nav {
 
 .Full-Stack--text {
   padding: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 5px;
   line-height: 1.5rem;
   text-align: center;
@@ -467,7 +467,7 @@ nav {
 }
 
 .background__3 {
-  background-image: url(assets/pics/salud1.png);
+  background-image: url(assets/pics/moni.png);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -567,7 +567,7 @@ nav {
 }
 
 .background__4--image {
-  height: 40rem;
+  height: 60rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -597,7 +597,7 @@ nav {
 }
 
 .background__5 {
-  background-image: url(assets/pics/Montessori6.png);
+  background-image: url(assets/pics/ucigeneral.png);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
