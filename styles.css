@@ -412,9 +412,11 @@ nav {
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 5px;
-  line-height: 1.5rem;
   text-align: center;
   font-size: 0.8rem;
+  letter-spacing: 1.4px;
+  word-spacing: 2.8px;
+  line-height: 1.5;
 }
 
 .background__2 {
