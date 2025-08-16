@@ -233,26 +233,30 @@ nav {
   }
 }
 
-.contenido-header .dibujo1{
+.contenido-header .dibujo1 {
   display: flex;
   justify-content: right;
   margin-right: 15px;
 }
+
 @media(min-width: 620px) {
   .contenido-header .dibujo1 {
     margin-right: 20px;
   }
 }
+
 @media(min-width: 900px) {
   .contenido-header .dibujo1 {
     margin-right: 30px;
   }
 }
+
 @media(min-width: 1120px) {
   .contenido-header .dibujo1 {
     margin-right: 40px;
   }
 }
+
 @media(min-width: 1200px) {
   .contenido-header .dibujo1 {
     margin-right: 50px;
@@ -349,7 +353,7 @@ nav {
   }
 }
 
-.banner .dibujo2 img  {
+.banner .dibujo2 img {
   margin-top: 250px;
   width: 100%;
   height: 200px;
@@ -404,6 +408,7 @@ nav {
   text-align: center;
   line-height: 1rem;
 }
+
 .Full-Stack--header h2 {
   color: rgb(29, 26, 26);
 }
@@ -418,6 +423,7 @@ nav {
   word-spacing: 2.8px;
   line-height: 1.5;
 }
+
 .Full-Stack--text p {
   text-align: justify;
 }
@@ -542,6 +548,7 @@ nav {
   letter-spacing: 1.4px;
   word-spacing: 2.8px;
 }
+
 .Data--text p {
   text-align: justify;
 }
