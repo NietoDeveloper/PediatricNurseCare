@@ -537,9 +537,10 @@ nav {
   margin-top: 5px;
   margin-bottom: 5px;
   line-height: 1.5rem;
-  text-align: center;
+  text-align: justify;
   font-size: 0.8rem;
-
+  letter-spacing: 1.4px;
+  word-spacing: 2.8px;
 }
 
 .background__4 {
