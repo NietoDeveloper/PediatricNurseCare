@@ -542,6 +542,9 @@ nav {
   letter-spacing: 1.4px;
   word-spacing: 2.8px;
 }
+.Data--text p {
+  text-align: justify;
+}
 
 .background__4 {
   background-image: url(assets/pics/EducadoraMontessori.png);
