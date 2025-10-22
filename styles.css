@@ -236,30 +236,30 @@ nav {
 .contenido-header .dibujo1 {
   display: flex;
   justify-content: right;
-  margin-right: 15px;
+  margin-right: 25px;
 }
 
 @media(min-width: 620px) {
-  .contenido-header .dibujo1 {
-    margin-right: 20px;
-  }
-}
-
-@media(min-width: 900px) {
   .contenido-header .dibujo1 {
     margin-right: 30px;
   }
 }
 
-@media(min-width: 1120px) {
+@media(min-width: 900px) {
   .contenido-header .dibujo1 {
     margin-right: 40px;
   }
 }
 
+@media(min-width: 1120px) {
+  .contenido-header .dibujo1 {
+    margin-right: 50px;
+  }
+}
+
 @media(min-width: 1200px) {
   .contenido-header .dibujo1 {
-    margin-right: 60px;
+    margin-right: 70px;
   }
 }
 
