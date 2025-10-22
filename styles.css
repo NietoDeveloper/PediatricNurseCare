@@ -365,6 +365,7 @@ nav {
 @media screen and (min-width: 700px) {
   .banner .dibujo2 img {
     height: 250px;
+    margin-top: 500px;
   }
 }
 
