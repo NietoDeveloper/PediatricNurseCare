@@ -184,9 +184,9 @@ nav {
   align-items: center;
   justify-content: center;
 }
-@media(min-width: 620px) {
-  .texto-encabezado h2 {
-    font-size: 46px;
+@media(min-width: 680px) {
+  .texto-encabezado  {
+    margin-top: 150px;
   }
 }
 
@@ -197,12 +197,12 @@ nav {
 }
 @media(min-width: 475px) {
   .texto-encabezado h2 {
-    font-size: 38px;
+    font-size: 44px;
   }
 }
 @media(min-width: 620px) {
   .texto-encabezado h2 {
-    font-size: 46px;
+    font-size: 52px;
   }
 }
 
