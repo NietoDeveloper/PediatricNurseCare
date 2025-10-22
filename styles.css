@@ -34,7 +34,7 @@ h2,
 h3 {
   font-family: var(--titulos);
   font-weight: var(--font-semi-bold);
-  color: purple;
+  color: gainsboro;
 }
 
 p,
@@ -675,7 +675,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 35rem;
-
+  color: gainsboro;
 }
 
 
