@@ -219,19 +219,19 @@ nav {
 .texto-encabezado-2 h3 {
   color: rgb(20, 20, 215);
   text-align: center;
-  font-size: 22px;
+  font-size: 23px;
   margin-top: 200px;
 }
 
 @media(min-width: 475px) {
   .texto-encabezado-2 h3 {
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 
 @media(min-width: 680px) {
   .texto-encabezado-2 h3 {
-    font-size: 27px;
+    font-size: 34px;
     margin-top: 350px;
   }
 }
