@@ -178,7 +178,7 @@ nav {
   position: absolute;
   z-index: 2;
   width: 100%;
-  margin-top: 90px;
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -217,7 +217,7 @@ nav {
   color: rgb(20, 20, 215);
   text-align: center;
   font-size: 20px;
-  margin-top: 210px;
+  margin-top: 200px;
 }
 
 @media(min-width: 475px) {
@@ -275,7 +275,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  height: 90%;
+  height: 100%;
   overflow: hidden;
 }
 
