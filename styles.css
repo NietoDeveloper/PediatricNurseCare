@@ -229,10 +229,10 @@ nav {
   }
 }
 
-@media(min-width: 580px) {
+@media(min-width: 680px) {
   .texto-encabezado-2 h3 {
     font-size: 27px;
-    margin-top: 210px;
+    margin-top: 350px;
   }
 }
 
