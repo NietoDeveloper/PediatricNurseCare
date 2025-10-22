@@ -283,7 +283,7 @@ nav {
   position: absolute;
   bottom: 0;
   max-width: 100%;
-  height: 450px;
+  height: 420px;
   -webkit-animation: animate calc(4s * var(--i)) linear infinite;
   animation: animate calc(7s * var(--i)) linear infinite;
 }
