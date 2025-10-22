@@ -266,8 +266,8 @@ nav {
 .banner {
   position: relative;
   width: 100%;
-  height: 90vh;
-  margin-top: -40px;
+  height: 100vh;
+  margin-top: 80px;
 }
 
 .banner .clouds {
@@ -275,7 +275,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 90%;
   overflow: hidden;
 }
 
@@ -283,7 +283,7 @@ nav {
   position: absolute;
   bottom: 0;
   max-width: 100%;
-  height: 400px;
+  height: 450px;
   -webkit-animation: animate calc(4s * var(--i)) linear infinite;
   animation: animate calc(7s * var(--i)) linear infinite;
 }
