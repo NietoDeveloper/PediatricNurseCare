@@ -184,19 +184,22 @@ nav {
   align-items: center;
   justify-content: center;
 }
+@media(min-width: 620px) {
+  .texto-encabezado h2 {
+    font-size: 46px;
+  }
+}
 
 .texto-encabezado h2 {
   color: purple;
   text-align: center;
   font-size: 36px;
 }
-
 @media(min-width: 475px) {
   .texto-encabezado h2 {
     font-size: 38px;
   }
 }
-
 @media(min-width: 620px) {
   .texto-encabezado h2 {
     font-size: 46px;
@@ -318,7 +321,7 @@ nav {
 
 .down-cloud .home-img-1 img {
   width: 100%;
-  height: 180px;
+  height: 200px;
 }
 
 @media screen and (min-width: 450px) {
