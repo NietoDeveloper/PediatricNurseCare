@@ -313,13 +313,13 @@ nav {
 }
 
 .Data--text{
-  padding: 10px;
-  margin-top:5px;
-  margin-bottom: 5px;
-  line-height: 1.5rem;
-  text-align:center;
-  font-size: 0.8rem;
-  
+    padding: 8px;
+  margin-bottom: 2px;
+  text-align: justify;
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  word-spacing: 2.8px;
+  line-height: 1.5;
 }
 
 .Why{
