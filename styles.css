@@ -462,7 +462,6 @@ nav {
 }
 
 .Aws--header {
-  margin-top: 10px;
   margin-bottom: 1rem;
   text-align: center;
   line-height: 1rem;
@@ -537,7 +536,6 @@ nav {
 
 .Data {
   padding: 80px 50px;
-
 }
 
 .Data--header {
