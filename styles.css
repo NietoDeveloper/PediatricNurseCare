@@ -599,7 +599,7 @@ nav {
 .Why {
   background-color: black;
   color: white;
-  padding: 80px  50px;
+  padding: 80px  60px;
   opacity: 0.8;
 }
 
@@ -610,8 +610,6 @@ nav {
 }
 
 .Why--text {
-  padding: 10px 30px;
-  margin-top: 40px;
   margin-bottom: 5px;
   line-height: 1.5rem;
   text-align: center;
