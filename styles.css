@@ -410,6 +410,8 @@ nav {
 
 .Full-Stack {
   padding: 80px 50px;
+  align-items: center;
+  text-align: center;
 }
 
 .Full-Stack .Full-Stack--header h2 {
