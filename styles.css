@@ -291,7 +291,7 @@ nav {
 }
 @media(min-width: 700px) {
   .banner .clouds img {
-    height: 700px;
+    height: 500px;
   }
 }
 
