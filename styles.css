@@ -186,7 +186,7 @@ nav {
 }
 @media(min-width: 680px) {
   .texto-encabezado  {
-    margin-top: 150px;
+    margin-top: 80px;
   }
 }
 
@@ -232,7 +232,7 @@ nav {
 @media(min-width: 680px) {
   .texto-encabezado-2 h3 {
     font-size: 34px;
-    margin-top: 350px;
+    margin-top: 240px;
   }
 }
 
