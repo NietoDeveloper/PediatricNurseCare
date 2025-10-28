@@ -434,8 +434,9 @@ nav {
   text-align: justify;
 }
 
-.Full-Stack a {
+.Full-Stack  a {
   font-size: 25px;
+  color: purple;
 }
 
 .background__2 {
