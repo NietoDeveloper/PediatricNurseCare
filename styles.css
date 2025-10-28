@@ -361,14 +361,14 @@ nav {
 }
 
 .banner .dibujo2 img {
-  margin-top: 230px;
+  margin-top: 240px;
   width: 100%;
   height: 180px;
 }
 @media screen and (min-width: 800px) {
   .banner .dibujo2 img {
     height: 250px;
-    margin-top: 3%;
+    margin-top: 250px;
   }
 }
 
