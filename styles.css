@@ -547,7 +547,7 @@ nav {
   text-align: center;
   line-height: 1rem;
 }
-.Data--header h2 {
+.Data .Data--header h2 {
   color: black;
 }
 .Data--text {
