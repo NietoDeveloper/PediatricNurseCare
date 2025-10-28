@@ -34,7 +34,7 @@ h2,
 h3 {
   font-family: var(--titulos);
   font-weight: var(--font-semi-bold);
-  color: black;
+  color: white;
 }
 
 p,
@@ -409,8 +409,7 @@ nav {
 }
 
 .Full-Stack {
-  opacity: 0.7;
-  padding: 2.5rem;
+  padding: 80px 50px;
 }
 .Full-Stack .Full-Stack--header h2 {
   color: black;
