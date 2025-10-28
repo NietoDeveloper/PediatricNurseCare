@@ -438,6 +438,9 @@ nav {
   font-size: 25px;
   color: purple;
 }
+.Full-Stack a:hover {
+  color: gold;
+}
 
 .background__2 {
   background-image: url(assets/pics/salud1.png);
