@@ -34,7 +34,7 @@ h2,
 h3 {
   font-family: var(--titulos);
   font-weight: var(--font-semi-bold);
-  color: gainsboro;
+  color: black;
 }
 
 p,
