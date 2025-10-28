@@ -409,14 +409,12 @@ nav {
 }
 
 .Full-Stack {
-
   background-color: gainsboro;
   opacity: 0.7;
   padding: 2.5rem;
 }
 
 .Full-Stack--header {
-  margin-top: 2rem;
   margin-bottom: 1rem;
   text-align: center;
   line-height: 1rem;
