@@ -186,7 +186,7 @@ nav {
 }
 @media(min-width: 680px) {
   .texto-encabezado  {
-    margin-top: 80px;
+    margin-top: 50px;
   }
 }
 
@@ -231,8 +231,8 @@ nav {
 
 @media(min-width: 610px) {
   .texto-encabezado-2 h3 {
-    font-size: 34px;
-    margin-top: 230px;
+    font-size: 30px;
+    margin-top: 210px;
   }
 }
 
@@ -256,13 +256,13 @@ nav {
 
 @media(min-width: 1120px) {
   .contenido-header .dibujo1 {
-    margin-right: 60px;
+    margin-right: 80px;
   }
 }
 
 @media(min-width: 1200px) {
   .contenido-header .dibujo1 {
-    margin-right: 120px;
+    margin-right: 180px;
   }
 }
 
