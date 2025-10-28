@@ -413,7 +413,7 @@ nav {
 }
 @media screen and (min-width: 725px) {
   .Full-Stack {
-    padding: 150px  60px;
+    padding: 80px  150px;
   }
 .Full-Stack .Full-Stack--header h2 {
   color: black;
