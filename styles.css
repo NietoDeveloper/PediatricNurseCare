@@ -549,9 +549,10 @@ nav {
   margin-bottom: 1rem;
   text-align: center;
   line-height: 1rem;
-  color: ;
 }
-
+.Data--header h2 {
+  
+}
 .Data--text {
   padding: 10px;
   margin-top: 5px;
