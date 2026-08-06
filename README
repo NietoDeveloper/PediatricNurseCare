@@ -45,7 +45,7 @@
 The site was engineered with **zero external dependencies**: pure HTML5, CSS3, and Vanilla JavaScript (ES6+). This keeps it lightning-fast, infinitely portable, and trivially easy to maintain or hand off.
 
 | What | Why |
-|:-----|:----|
+| :----- | :---- |
 | 👩‍⚕️ Professional profile section | Establishes credibility and trust with families |
 | 📩 Direct contact section | Zero-friction patient outreach |
 | 📱 Fully responsive layout | Seamless on phone, tablet, and desktop |
@@ -75,7 +75,7 @@ Color Philosophy
 ```
 
 | Principle | Implementation |
-|:----------|:---------------|
+| :---------- | :--------------- |
 | 💙 **Warmth** | Soft color palette — not clinical white, not cold blue |
 | 🔤 **Legibility** | High-contrast text, generous line-height for all ages |
 | 📱 **Mobile-first** | Designed at 375px, scaled up — not the reverse |
@@ -111,7 +111,7 @@ Color Philosophy
 <div align="center">
 
 | Layer | Technology | Role |
-|:------|:-----------|:-----|
+| :------ | :----------- | :----- |
 | 🏗️ **Structure** | HTML5 | Semantic markup · SEO-ready |
 | 🎨 **Styling** | CSS3 | Responsive layout · Animations · Flexbox/Grid |
 | ⚡ **Behavior** | JavaScript ES6+ | DOM manipulation · Interactivity · Events |
@@ -188,14 +188,14 @@ The site is deployed on **Netlify** with continuous deployment from the `main` b
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                  DEPLOY PIPELINE                         │
-│                                                           │
-│  git push origin main                                    │
-│       │                                                   │
-│       └──► Netlify detects push                          │
-│            ├── Builds in ~5s (static — instant)          │
-│            ├── Deploys to global CDN                     │
-│            └── Live at monicaandramunio.netlify.app ✅    │
+│                  DEPLOY PIPELINE                        │
+│                                                         │
+│  git push origin main                                   │
+│       │                                                 │
+│       └──► Netlify detects push                         │
+│            ├── Builds in ~5s (static — instant)         │
+│            ├── Deploys to global CDN                    │
+│            └── Live at monicaandramunio.netlify.app ✅ │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -221,7 +221,7 @@ flowchart LR
 ```
 
 | Feature | Description |
-|:--------|:------------|
+| :-------- | :------------ |
 | 👩‍⚕️ **Professional Profile** | Full bio, credentials, and specialization in pediatric care |
 | 📋 **Services Section** | Clear, readable overview of what she offers |
 | 📩 **Contact Section** | Direct call-to-action for families to reach out |
@@ -258,7 +258,7 @@ Specialized in MERN, scalable cloud systems, and production-ready applications.
 <div align="center">
 
 | Resource | Link |
-|:---------|:-----|
+| :--------- | :----- |
 | 🌐 **Live Site** | [monicaandramunio.netlify.app](https://monicaandramunio.netlify.app/) |
 | 📂 **Repository** | [github.com/NietoDeveloper/PediatricNurseCare](https://github.com/NietoDeveloper/PediatricNurseCare) |
 | 👤 **Developer** | [github.com/NietoDeveloper](https://github.com/NietoDeveloper) |
