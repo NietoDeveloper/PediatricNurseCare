@@ -1,0 +1,88 @@
+<div align="center">
+
+# 🩺 PediatricNurseCare
+
+### Professional Presentation & Contact Landing Page
+
+Built for an independent pediatric nurse client — a clean, fast, single-page site to present her professional profile and let patients get in touch.
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Site-FFD700?style=for-the-badge)](https://monicaandramunio.netlify.app/)
+[![Made with Vanilla JS](https://img.shields.io/badge/Made_with-Vanilla_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#tech-stack)
+[![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)](https://monicaandramunio.netlify.app/)
+
+</div>
+
+---
+
+## 📖 About the Project
+
+**PediatricNurseCare** is a lightweight, single-page landing site built for a client — an independent pediatric nurse — to present her professional profile and provide an easy way for patients and families to get in touch.
+
+The site was built entirely in **Vanilla JavaScript**, with no frameworks or external libraries: fast to load, easy to maintain, and simple to deploy anywhere.
+
+**Key features:**
+- 👩‍⚕️ Professional presentation section
+- 📩 Direct contact section
+- 📱 Fully responsive design (mobile / tablet / desktop)
+- ⚡ Zero-dependency, framework-free build
+
+---
+
+## 🚀 Live Demo
+
+🔗 **[monicaandramunio.netlify.app](https://monicaandramunio.netlify.app/)**
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Structure | HTML5 |
+| Styling | CSS3 |
+| Behavior | JavaScript (Vanilla, ES6+) |
+| Hosting / CI-CD | Netlify |
+| Version Control | Git & GitHub |
+
+---
+
+## ⚙️ Getting Started
+
+No build tools or dependencies required — it's plain HTML/CSS/JS.
+
+### Prerequisites
+
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+- Git (to clone the repo)
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/NietoDeveloper/PediatricNurseCare.git
+
+# 2. Navigate into the project directory
+cd PediatricNurseCare
+```
+
+### Run locally
+
+Simply open `index.html` in your browser — no server or install step needed.
+
+```bash
+open index.html
+```
+
+---
+
+## 👨‍💻 Author & Engineering Lead
+
+**Manuel Nieto**
+Full-Stack Software Engineer & Architect
+Specialized in MERN, scalable cloud systems, and production-ready applications.
+
+[![GitHub](https://img.shields.io/badge/GitHub-NietoDeveloper-181717?style=flat-square&logo=github)](https://github.com/NietoDeveloper)
+[![Portfolio](https://img.shields.io/badge/Portfolio-manuelnieto.netlify.app-FFD700?style=flat-square)](https://manuelnieto.netlify.app/)
+
+**Software DT** — Bogotá, Colombia 🇨🇴
+
