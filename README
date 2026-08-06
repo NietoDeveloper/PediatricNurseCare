@@ -21,6 +21,7 @@ Built for an independent pediatric nurse client — a clean, fast, single-page s
 The site was built entirely in **Vanilla JavaScript**, with no frameworks or external libraries: fast to load, easy to maintain, and simple to deploy anywhere.
 
 **Key features:**
+
 - 👩‍⚕️ Professional presentation section
 - 📩 Direct contact section
 - 📱 Fully responsive design (mobile / tablet / desktop)
@@ -37,7 +38,7 @@ The site was built entirely in **Vanilla JavaScript**, with no frameworks or ext
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
-|---|---|
+| --- | --- |
 | Structure | HTML5 |
 | Styling | CSS3 |
 | Behavior | JavaScript (Vanilla, ES6+) |
@@ -85,4 +86,3 @@ Specialized in MERN, scalable cloud systems, and production-ready applications.
 [![Portfolio](https://img.shields.io/badge/Portfolio-manuelnieto.netlify.app-FFD700?style=flat-square)](https://manuelnieto.netlify.app/)
 
 **Software DT** — Bogotá, Colombia 🇨🇴
-
