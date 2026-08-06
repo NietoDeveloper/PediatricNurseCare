@@ -1,43 +1,31 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D3557,30:457B9D,60:A8DADC,100:FFFFFF&height=260&section=header&text=NurseWebSite&fontSize=82&fontColor=FFFFFF&fontAlignY=40&desc=🩺%20Pediatric%20Nurse%20·%20Professional%20Landing%20Page%20·%20Vanilla%20JS&descAlignY=60&descColor=A8DADC&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=240&section=header&text=NurseWebSite&fontSize=82&fontColor=FFFFFF&fontAlignY=42&desc=🩺%20Pediatric%20Nurse%20·%20Professional%20Landing%20Page%20·%20Vanilla%20JS&descAlignY=62&descColor=DCDCDC&animation=fadeIn" width="100%"/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=18&duration=2800&pause=900&color=FFD700&center=true&vCenter=true&width=760&lines=🩺+Professional+Pediatric+Nurse+Profile;📱+Fully+Responsive+·+Mobile+First;⚡+Zero+Dependencies+·+Pure+Vanilla+JS;🌐+Live+on+Netlify+·+Always+On;💙+Built+for+Real+Patients+%26+Families)](https://git.io/typing-svg)
 
 <br/>
-
-<a href="https://monicaandramunio.netlify.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&duration=2600&pause=800&color=A8DADC&background=00000000&center=true&vCenter=true&width=760&height=45&lines=%F0%9F%A9%BA+Professional+Pediatric+Nurse+Profile;%F0%9F%93%B1+Fully+Responsive+%C2%B7+Mobile+First;%E2%9A%A1+Zero+Dependencies+%C2%B7+Pure+Vanilla+JS;%F0%9F%8C%90+Live+on+Netlify+%C2%B7+Always+On;%F0%9F%92%99+Built+for+Real+Patients+%26+Families" alt="Typing animation"/>
-</a>
-
-<br/><br/>
 
 <p align="center">
   <a href="https://monicaandramunio.netlify.app/">
-    <img src="https://img.shields.io/badge/🌐_Live_Site-monicaandramunio.netlify.app-A8DADC?style=for-the-badge&labelColor=1D3557"/>
+    <img src="https://img.shields.io/badge/🌐_Live_Site-monicaandramunio.netlify.app-A8DADC?style=for-the-badge"/>
   </a>
   <a href="https://github.com/NietoDeveloper/PediatricNurseCare">
-    <img src="https://img.shields.io/badge/📂_Source-NietoDeveloper%2FPediatricNurseCare-000000?style=for-the-badge&logo=github&logoColor=A8DADC"/>
+    <img src="https://img.shields.io/badge/📂_Source-NietoDeveloper%2FPediatricNurseCare-000000?style=for-the-badge&logo=github&logoColor=FFD700"/>
   </a>
+  <img src="https://img.shields.io/badge/Status-Live-00D26A?style=for-the-badge&logo=netlify&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Framework-None_%7C_Zero_Deps-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Live_✓-00D26A?style=for-the-badge&logo=netlify&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Framework-None_%7C_Zero_Deps-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Client_Project-Real_World-A8DADC?style=for-the-badge&labelColor=1D3557"/>
+  <img src="https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Netlify-Hosting-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 </p>
 
 <br/>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-</p>
-
-</div>
-
----
 
 > **NurseWebSite:** *Professional presentation and direct contact landing page for an independent pediatric nurse — built for real patients and families.*
 
@@ -45,6 +33,8 @@
 > Designed to present a professional pediatric nurse profile with clarity and warmth, enabling families to learn about her services and reach out with zero friction.
 >
 > *Clean · Fast · Human · Built in Bogotá 🇨🇴*
+
+</div>
 
 ---
 
@@ -55,7 +45,7 @@
 The site was engineered with **zero external dependencies**: pure HTML5, CSS3, and Vanilla JavaScript (ES6+). This keeps it lightning-fast, infinitely portable, and trivially easy to maintain or hand off.
 
 | What | Why |
-| :--- | :--- |
+| :----- | :---- |
 | 👩‍⚕️ Professional profile section | Establishes credibility and trust with families |
 | 📩 Direct contact section | Zero-friction patient outreach |
 | 📱 Fully responsive layout | Seamless on phone, tablet, and desktop |
@@ -66,35 +56,29 @@ The site was engineered with **zero external dependencies**: pure HTML5, CSS3, a
 
 ## 🚀 Live Demo
 
-<div align="center">
-
-[![Live Site](https://img.shields.io/badge/🌐_Open_Live_Site-monicaandramunio.netlify.app-A8DADC?style=for-the-badge&labelColor=1D3557)](https://monicaandramunio.netlify.app/)
-
-</div>
+🔗 **[monicaandramunio.netlify.app](https://monicaandramunio.netlify.app/)**
 
 ---
 
-## 🎨 Design System
+## 🎨 Design Approach
 
 > Warm, professional, and accessible — built around trust and clarity for families seeking pediatric care.
 
-<div align="center">
-
-| Token | Hex | Role |
-| :---- | :-- | :--- |
-| 🩵 Sky Blue | `#A8DADC` | Primary accent · Calm & medical |
-| 🌊 Deep Navy | `#1D3557` | Headings · Authority & trust |
-| 💙 Soft Teal | `#457B9D` | Secondary text · Professional warmth |
-| ⬜ Clinical White | `#FFFFFF` | Base background · Clean feel |
-| 🟢 Action Green | `#00D26A` | Live status · CTA elements |
-
-</div>
+```
+Color Philosophy
+─────────────────────────────────────────────
+  Clinical White   #FFFFFF   Base background · Clean & sterile feel
+  Sky Blue         #A8DADC   Primary accent · Calm & medical
+  Deep Navy        #1D3557   Headings · Authority & trust
+  Soft Teal        #457B9D   Secondary text · Professional warmth
+  Action Green     #00D26A   CTA elements · Live status
+```
 
 | Principle | Implementation |
-| :-------- | :------------- |
-| 💙 **Warmth** | Soft palette — not clinical white, not cold blue |
+| :---------- | :--------------- |
+| 💙 **Warmth** | Soft color palette — not clinical white, not cold blue |
 | 🔤 **Legibility** | High-contrast text, generous line-height for all ages |
-| 📱 **Mobile-first** | Designed at 375px, scaled up |
+| 📱 **Mobile-first** | Designed at 375px, scaled up — not the reverse |
 | ♿ **Accessibility** | Semantic HTML, meaningful alt text, tab-navigable |
 
 ---
@@ -106,28 +90,28 @@ The site was engineered with **zero external dependencies**: pure HTML5, CSS3, a
 ║                    NURSEWEBSITE STACK                        ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   ┌──────────────────────────────────────────────────┐      ║
-║   │                  FRONTEND                        │      ║
-║   │                                                  │      ║
-║   │   HTML5  ──  Semantic Structure & SEO            │      ║
-║   │   CSS3   ──  Layout · Animation · Responsive     │      ║
-║   │   JS ES6+──  Interactivity · DOM · Events        │      ║
-║   └──────────────────────┬───────────────────────────┘      ║
-║                          │                                  ║
-║                          ▼                                  ║
-║   ┌──────────────────────────────────────────────────┐      ║
-║   │               DEPLOYMENT                         │      ║
-║   │                                                  │      ║
-║   │   Netlify  ──  Hosting · CDN · Auto-deploy       │      ║
-║   │   GitHub   ──  Source · CI/CD trigger            │      ║
-║   └──────────────────────────────────────────────────┘      ║
+║   ┌──────────────────────────────────────────────────┐       ║
+║   │                  FRONTEND                        │       ║
+║   │                                                  │       ║
+║   │   HTML5  ──  Semantic Structure & SEO            │       ║
+║   │   CSS3   ──  Layout · Animation · Responsive     │       ║
+║   │   JS ES6+──  Interactivity · DOM · Events        │       ║
+║   └──────────────────────┬───────────────────────────┘       ║
+║                          │                                   ║
+║                          ▼                                   ║
+║   ┌──────────────────────────────────────────────────┐       ║
+║   │               DEPLOYMENT                         │       ║
+║   │                                                  │       ║
+║   │   Netlify  ──  Hosting · CDN · Auto-deploy       │       ║
+║   │   GitHub   ──  Source · CI/CD trigger            │       ║
+║   └──────────────────────────────────────────────────┘       ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
 <div align="center">
 
 | Layer | Technology | Role |
-| :---- | :--------- | :--- |
+| :------ | :----------- | :----- |
 | 🏗️ **Structure** | HTML5 | Semantic markup · SEO-ready |
 | 🎨 **Styling** | CSS3 | Responsive layout · Animations · Flexbox/Grid |
 | ⚡ **Behavior** | JavaScript ES6+ | DOM manipulation · Interactivity · Events |
@@ -179,23 +163,26 @@ git clone https://github.com/NietoDeveloper/PediatricNurseCare.git
 cd PediatricNurseCare
 
 # 3. Open directly in your browser — that's it
-open index.html        # macOS
-xdg-open index.html    # Linux
-start index.html       # Windows
+open index.html
 ```
+
+> On Windows: double-click `index.html` or drag it into your browser.
 
 ### Live Server (optional, for development)
 
 ```bash
-# Using npx — no global install needed
-npx serve .
+# Using VS Code Live Server extension
+# Right-click index.html → "Open with Live Server"
 
-# Or VS Code → right-click index.html → "Open with Live Server"
+# Or using npx (one-time, no install)
+npx serve .
 ```
 
 ---
 
 ## 🌐 Deployment
+
+The site is deployed on **Netlify** with continuous deployment from the `main` branch.
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -211,9 +198,9 @@ npx serve .
 ```
 
 | Environment | URL |
-| :---------- | :-- |
+|:------------|:----|
 | **Production** | [monicaandramunio.netlify.app](https://monicaandramunio.netlify.app/) |
-| **Local dev** | `index.html` direct · or `localhost:3000` via Live Server |
+| **Local dev** | `index.html` (direct) or `localhost:3000` (Live Server) |
 
 ---
 
@@ -224,39 +211,39 @@ flowchart LR
     A([👩‍⚕️ Nurse Profile]) -->|Clear presentation| B[Professional Bio]
     B -->|Builds trust| C[Services Overview]
     C -->|Enables action| D[Contact Section]
-    D -->|Direct outreach| E([💌 Patient & Family])
+    D -->|Direct outreach| E([💌 Patient / Family])
 
-    style A fill:#A8DADC,color:#000,stroke:#1D3557
-    style B fill:#457B9D,color:#fff,stroke:#1D3557
-    style C fill:#457B9D,color:#fff,stroke:#1D3557
-    style D fill:#1D3557,color:#fff,stroke:#A8DADC
-    style E fill:#A8DADC,color:#000,stroke:#1D3557
+    style A fill:#A8DADC,color:#000,stroke:#A8DADC
+    style E fill:#A8DADC,color:#000,stroke:#A8DADC
+    style D fill:#1D3557,color:#fff,stroke:#1D3557
 ```
 
 | Feature | Description |
-| :------ | :---------- |
-| 👩‍⚕️ **Professional Profile** | Full bio, credentials, and pediatric specialization |
+| :-------- | :------------ |
+| 👩‍⚕️ **Professional Profile** | Full bio, credentials, and specialization in pediatric care |
 | 📋 **Services Section** | Clear, readable overview of what she offers |
-| 📩 **Contact Section** | Direct CTA for families to reach out |
+| 📩 **Contact Section** | Direct call-to-action for families to reach out |
 | 📱 **Responsive Design** | Flawless on mobile — where most parents browse |
-| ⚡ **Instant Load** | No JS bundle, no framework overhead |
-| 🌐 **Always Online** | Netlify global CDN · 99.9% uptime |
+| ⚡ **Instant Load** | No JS bundle, no framework overhead — loads in under 1s |
+| 🌐 **Always Online** | Netlify global CDN with 99.9% uptime |
 
 ---
 
 ## 👨‍💻 Author & Engineering Lead
 
-**Manuel Nieto** · Full-Stack Software Engineer & Architect
+**Manuel Nieto**
+Full-Stack Software Engineer & Architect
+Specialized in MERN, scalable cloud systems, and production-ready applications.
 
 <p align="left">
   <a href="https://github.com/NietoDeveloper">
     <img src="https://img.shields.io/badge/GitHub-NietoDeveloper-181717?style=flat-square&logo=github&logoColor=white"/>
   </a>
   <a href="https://manuelnieto.netlify.app/">
-    <img src="https://img.shields.io/badge/Portfolio-manuelnieto.netlify.app-FFD700?style=flat-square&labelColor=000"/>
+    <img src="https://img.shields.io/badge/Portfolio-manuelnieto.netlify.app-FFD700?style=flat-square"/>
   </a>
   <a href="https://committers.top/colombia">
-    <img src="https://img.shields.io/badge/🥇_%231_Committer-Colombia-FFD700?style=flat-square&labelColor=000"/>
+    <img src="https://img.shields.io/badge/🥇_%231_Committer-Colombia-FFD700?style=flat-square"/>
   </a>
 </p>
 
@@ -269,7 +256,7 @@ flowchart LR
 <div align="center">
 
 | Resource | Link |
-| :------- | :--- |
+| :--------- | :----- |
 | 🌐 **Live Site** | [monicaandramunio.netlify.app](https://monicaandramunio.netlify.app/) |
 | 📂 **Repository** | [github.com/NietoDeveloper/PediatricNurseCare](https://github.com/NietoDeveloper/PediatricNurseCare) |
 | 👤 **Developer** | [github.com/NietoDeveloper](https://github.com/NietoDeveloper) |
@@ -282,10 +269,10 @@ flowchart LR
 
 <div align="center">
 
-[![Live Site](https://img.shields.io/badge/🌐_Live_Site-monicaandramunio.netlify.app-A8DADC?style=for-the-badge&labelColor=1D3557)](https://monicaandramunio.netlify.app/)
-[![GitHub Profile](https://img.shields.io/badge/GitHub-NietoDeveloper-000?style=for-the-badge&logo=github&logoColor=A8DADC)](https://github.com/NietoDeveloper)
-[![#1 Colombia](https://img.shields.io/badge/🥇_%231_Committer-Colombia-FFD700?style=for-the-badge&labelColor=000)](https://committers.top/colombia)
-[![Built by Software DT](https://img.shields.io/badge/Built_by-Software_DT-FFD700?style=for-the-badge&labelColor=000)](https://softwaredt.vercel.app)
+[![Live Site](https://img.shields.io/badge/🌐_Live_Site-monicaandramunio.netlify.app-A8DADC?style=for-the-badge)](https://monicaandramunio.netlify.app/)
+[![GitHub Profile](https://img.shields.io/badge/GitHub-NietoDeveloper-000?style=for-the-badge&logo=github&logoColor=FFD700)](https://github.com/NietoDeveloper)
+[![#1 Colombia](https://img.shields.io/badge/🥇_%231_Committer-Colombia-FFD700?style=for-the-badge)](https://committers.top/colombia)
+[![Software DT](https://img.shields.io/badge/Built_by-Software_DT-FFD700?style=for-the-badge)](https://softwaredt.vercel.app)
 
 <br/>
 
@@ -305,6 +292,6 @@ flowchart LR
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,30:A8DADC,60:457B9D,100:1D3557&height=140&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=130&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
